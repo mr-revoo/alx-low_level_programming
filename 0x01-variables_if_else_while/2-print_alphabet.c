@@ -7,9 +7,11 @@
 
 int main(void)
 {
-	for (int i = 97; i < 123; i++)
+	int i = 97;
+
+	while (i < 123)
 	{
-		putchar(i);
+		putchar(i++);
 	}
 	return (0);
 }
