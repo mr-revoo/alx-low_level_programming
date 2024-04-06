@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * natural - prints sum of multiples of 3 and 5 of certian number
@@ -6,7 +7,7 @@
 * Return: null
 */
 
-int natural(void)
+void natural(void)
 {
 	int i = 0, sum = 0;
 
@@ -17,6 +18,6 @@ int natural(void)
 			sum += i;
 		}
 	}
-	return (sum);
+	printf("%d\n", sum);
 
 }
