@@ -9,7 +9,7 @@
 
 void natural(void)
 {
-	int i = 0, sum = 0;
+	long i = 0, sum = 0;
 
 	for (i = 0; i < 1024; i++)
 	{
@@ -18,6 +18,18 @@ void natural(void)
 			sum += i;
 		}
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 
+}
+
+/**
+* main - MainFunction
+* Return: 0
+*/
+
+
+int main(void)
+{
+	natural();
+	return (0);
 }
